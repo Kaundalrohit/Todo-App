@@ -1,0 +1,31 @@
+.sidebar {
+  height: 100%;
+  width: 227px;
+  position: fixed;
+  top: 89px;
+  left: 0;
+  padding-top: 40px;
+  background-color: lightblue;
+}
+.sidebar div {
+  display: block;
+}
+
+.body-text {
+  width: 1050px;
+  margin-left: 260px;
+}
+#date-auction {
+  width: 100%;
+  padding: 5px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background: url(https://mywildalberta.ca/images/GFX-MWA-Parks-Reservations.png)
+    no-repeat;
+  width: 20px;
+  height: 20px;
+  border-width: thin;
+}
